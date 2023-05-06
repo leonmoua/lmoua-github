@@ -1,0 +1,52 @@
+body {
+    height:1500px
+}
+
+/* Sets width, height, and border to all elements in div */
+div {
+    width:300px;
+    height:180px;
+    border:double;
+}
+/* Sets the p element to red if it's the only child */
+p:only-child {
+    color:red;
+}
+/* Sets even p element to dark blue */
+p:nth-child(even){
+    color:purple;
+}
+/* Sets the div classed paragraph to green */
+.paragraph {
+    color:green;
+}
+/* Sets the div ID'd testDiv to blue */
+#testDiv {
+    color:blue;
+    height:200px;
+}
+/* Sets the 5th div to brown */
+div:nth-child(5){
+    color:brown;
+}
+/* Sets the immediate p element after a div to yellow*/
+div + p {
+    color: yellow;
+}
+/* Sets all p elements that are siblings to orange*/
+p ~ p {
+    color:orange;
+}
+/* Sets the div classed paragraph2 to navy color */
+.paragraph2 {
+    color:navy;
+}
+/* Sets the immediate h1 element of div to aqua */
+div > h1 {
+    color:aqua;
+}
+/* Sets the p elements that are siblings with div, but come after div to black */
+div ~ p {
+    color: black;
+}
+
