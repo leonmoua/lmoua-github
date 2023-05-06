@@ -1,0 +1,15 @@
+/* This is styling with class */
+.emphasize {
+    color: blue;
+}
+
+/* This is styling with selectors */
+li {
+    color: red;
+}
+
+/* This is styling with ID */
+
+#promote {
+    color: green;
+}
