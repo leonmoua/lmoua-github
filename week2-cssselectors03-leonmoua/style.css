@@ -1,8 +1,0 @@
-p::first-letter{
-    font-size: 36px;
-}
-
-p::first-line {
-    color: red;
-    font-weight: 900;
-}
