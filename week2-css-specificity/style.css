@@ -1,52 +1,53 @@
-body {
-    height:1500px
-}
-
-/* Sets width, height, and border to all elements in div */
+/* Sets color to div green as well as add width, height, and border */
 div {
-    width:300px;
-    height:180px;
-    border:double;
+    width: 300px;
+    height: 120px;
+    border: double;
+    color: green;
 }
-/* Sets the p element to red if it's the only child */
-p:only-child {
+/* Sets width height and border for h1 */
+h1 {
+    width: 250px;
+    height: 80px;
+    border: solid;
+}
+/* Sets color, width, height, and border for p */
+p {
+    width:250px;
+    height: 18px;
+    border: dashed;
+    color:cadetblue;
+}
+/* Sets all p after div to red */
+div > p {
     color:red;
 }
-/* Sets even p element to dark blue */
-p:nth-child(even){
-    color:purple;
+/* Overrights default cadetblue color to blue for second p*/
+p:nth-child(2) {
+    color: blue;
 }
-/* Sets the div classed paragraph to green */
-.paragraph {
-    color:green;
+/* Sets div class to purple */
+.purple {
+    color: purple;
 }
-/* Sets the div ID'd testDiv to blue */
-#testDiv {
-    color:blue;
-    height:200px;
-}
-/* Sets the 5th div to brown */
-div:nth-child(5){
-    color:brown;
-}
-/* Sets the immediate p element after a div to yellow*/
-div + p {
+/* Sets yellow to p with ID */
+#yellow {
     color: yellow;
 }
-/* Sets all p elements that are siblings to orange*/
-p ~ p {
-    color:orange;
+/* Overrights cadetblue color to aqua for p elements*/
+.aqua {
+    color: aqua;
 }
-/* Sets the div classed paragraph2 to navy color */
-.paragraph2 {
-    color:navy;
+/* Sets second div to brown */
+div:nth-child(2) {
+    color: brown;
 }
-/* Sets the immediate h1 element of div to aqua */
-div > h1 {
-    color:aqua;
+/* Sets only h1 to chartreuse */
+h1:only-child {
+    color:chartreuse
 }
-/* Sets the p elements that are siblings with div, but come after div to black */
-div ~ p {
-    color: black;
+/* Sets the last h1 to cornflowerblue */
+h1:last-child {
+    color:cornflowerblue
 }
 
