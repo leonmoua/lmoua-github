@@ -1,0 +1,13 @@
+div {
+    width: 250px;
+    padding: 20px;
+    border: dashed black;
+    margin: 40px;
+}
+
+span {
+    width: 250px;
+    padding: 20px;
+    border: dashed blue;
+    margin: 40px;
+}
