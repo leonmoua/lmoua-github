@@ -1,0 +1,51 @@
+.serif {
+    font-family: seirf;
+}
+
+.san-serif {
+    font-family: sans-serif
+}
+
+.capitalize {
+    text-transform: capitalize;   
+}
+
+h1 {
+    color: red;
+    text-shadow: 2px 2px black;
+}
+
+.kern {
+    letter-spacing: 5px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+div {
+    width: 500px;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+.fonts {
+    font-family: 'Montserrat', sans-serif;
+}
+#googleone {
+    font-weight: 100;
+}
+
+#googletwo {
+    font-weight: 300;
+}
+
+#googlethree {
+    font-weight: 1000;
+}
