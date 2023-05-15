@@ -1,0 +1,32 @@
+main {
+    border: dashed blue;
+}
+
+section {
+    border: dashed blue;
+    margin: 100px;
+}
+
+div {
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
