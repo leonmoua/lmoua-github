@@ -1,0 +1,33 @@
+body {
+    background-color:royalblue
+}
+
+main {
+    background-color: lightgreen;
+    width: 70%;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.head1 {
+    font-size: 32px;
+    font-weight: 300px;
+    color: darkblue;
+}
+
+.head2 {
+    font-size: 32px;
+    color: red;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid orange;
+    border-radius: 50%; 
+}
+
+.center {
+    text-align: center;
+}
