@@ -1,0 +1,13 @@
+li {
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: teal;
+}
