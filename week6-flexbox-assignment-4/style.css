@@ -1,0 +1,41 @@
+body {
+    width:750px;
+    height: 100%;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navy {
+    background-color: navy;
+    height: 100px;
+    width: 60%;
+}
+
+.blue {
+    background-color: blue;
+    height:100px;
+    width: 40%;
+}
+
+.light {
+    background-color: lightblue;
+    height: 100px;
+    width: 30%;
+}
+
+.whiteBlue {
+    background-color:aliceblue;
+    height:100px;
+    width: 30%;
+}
+
+.grey {
+    background-color: lightgrey;
+    height: 100px;
+    width:40%;
+}
