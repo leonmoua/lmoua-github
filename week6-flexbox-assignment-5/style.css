@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    height:100%;
+    width: 750px;
+}
+
+.pillar {
+    background-color: navy;
+    width:20%;
+    height: 300px;
+    border:2px solid lightblue;
+    color: white;
+}
+
+.column {
+    border:2px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+}
+
+.blue {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+.light {
+    background-color: lightblue;
+    width:100%;
+    height: 150px;
+    color: white;
+}
+
+
