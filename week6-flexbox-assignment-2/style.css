@@ -1,0 +1,16 @@
+body {
+    display: flex;
+}
+
+div {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+.one {
+    flex-grow: 1;
+}
+
+.two {
+    flex-grow: 2;
+}
