@@ -1,0 +1,23 @@
+html body div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid red;
+    background-image: url(../week8-flexbox-6-atf/image/type\ r.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
