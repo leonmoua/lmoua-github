@@ -1,0 +1,15 @@
+div {
+    border:2px solid red;
+    border-radius: 50%;
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+div:hover {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-color: green;
+    border: 2px solid orange;
+}
