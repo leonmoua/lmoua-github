@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    animation-name: change-position;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes change-position {
+    0% {left: 0}
+    100% {left: 100%;}
+}
