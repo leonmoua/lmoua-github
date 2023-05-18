@@ -1,0 +1,11 @@
+div {
+    background-color: red;
+    border:2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+
+.move {
+    position: relative;
+    left: 30px;
+}
