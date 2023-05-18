@@ -1,0 +1,29 @@
+body ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: lightblue;
+    height: 100%;
+    justify-content: center;
+}
+
+li {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+}
+
+a:link {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+
