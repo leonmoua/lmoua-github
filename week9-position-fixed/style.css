@@ -1,0 +1,12 @@
+div {
+    width: 100%;
+    background-color: red;
+    opacity: 0.5;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+}
+
+body {
+    width: 100%;
+}
