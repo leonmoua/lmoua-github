@@ -1,0 +1,29 @@
+
+aside {
+    width: 15%;
+}
+
+article {
+    width: 70%;
+    order: 3;
+}
+
+header {
+    order: 1;
+}
+
+.one {
+    order: 2;
+}
+
+.two {
+    order: 4;
+}
+
+footer {
+    order: 5;
+}
+
+
+
+
